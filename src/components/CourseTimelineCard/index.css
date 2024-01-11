@@ -1,0 +1,48 @@
+.course-card {
+  height: 250px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: #1e293b;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.description {
+  color: #1e293b;
+  font-size: 10px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.duration {
+  color: #1e293b;
+  font-size: 10px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.un-ordered-btn {
+  display: flex;
+  flex-wrap: wrap;
+}
+.title-duration-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.duration-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.course-name {
+  color: #1e293b;
+  font-size: 10px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  border: none;
+  margin-right: 5px;
+  background-color: #a4b1c0;
+}
